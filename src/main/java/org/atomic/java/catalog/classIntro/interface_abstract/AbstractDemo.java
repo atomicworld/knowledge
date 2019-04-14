@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.classObj.interface_abstract;
+package org.atomic.java.catalog.classIntro.interface_abstract;
 
 /**
  * 抽象类： （主要是用来 表示 “属性”，让子类去继承，也就具备了这种属性）

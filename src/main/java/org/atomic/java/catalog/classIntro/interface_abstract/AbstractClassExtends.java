@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.classObj.interface_abstract;
+package org.atomic.java.catalog.classIntro.interface_abstract;
 
 /**
  * 如果继承类，没有具体实现 父类的抽象方法， 不能是 abstract， 那么它自己也必须是 abstract 的；

@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.classObj.interface_abstract;
+package org.atomic.java.catalog.classIntro.interface_abstract;
 
 /**
  *  接口：（主要是用来 表示 “行为”，比如 ： 报警，独有的一些属性）
