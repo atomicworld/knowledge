@@ -1,6 +1,6 @@
 package org.atomic.java.innerclass;
 
-import org.atomic.java.catalog.classIntro.interface_abstract.InterfaceDemo;
+import org.atomic.java.catalog.class_.interface_abstract.InterfaceDemo;
 
 /**
  * 关于内部类：

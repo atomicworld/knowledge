@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.keyWords;
+package org.atomic.java.catalog.keywords.volatile_;
 
 /**
  *  缓存一致性协议：保证了每个缓存中使用的共享变量的副本是一致的。

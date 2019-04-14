@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.classIntro.interface_abstract;
+package org.atomic.java.catalog.class_.interface_abstract;
 
 
 public class AbstractExample {

@@ -1,57 +1,18 @@
-package org.atomic.java.catalog.keyWords;
+package org.atomic.java.catalog.class_.clone.deep;
 
 /**
  * 深度clone:
  *
  */
-
-class UnCloneA_Deep implements Cloneable {
-    private int i;
-    public UnCloneA_Deep(int ii) { i = ii; }
-    public void doubleValue() { i *= 2; }
-    public String toString() {
-        return Integer.toString(i);
-    }
-
-    public Object clone(){
-        UnCloneA_Deep o = null;
-        try{
-            o = (UnCloneA_Deep)super.clone();
-        }catch(CloneNotSupportedException e){
-            e.printStackTrace();
-        }
-        return o;
-    }
-
-}
-
-class CloneB_Deep implements Cloneable{
-    public int aInt;
-    public UnCloneA_Deep unCA = new UnCloneA_Deep(111);
-    public Object clone(){
-        CloneB_Deep o = null;
-        try{
-            o = (CloneB_Deep)super.clone();
-        }catch(CloneNotSupportedException e){
-            e.printStackTrace();
-        }
-
-        o.unCA = (UnCloneA_Deep) unCA.clone();
-
-        return o;
-    }
-}
-
-
-public class CloneDeep {
+public class DeepClone {
     public static void main(String[] a) {
 
-        CloneB_Deep b1 = new CloneB_Deep();
+        DeepCloneB b1 = new DeepCloneB();
         b1.aInt = 11;
         System.out.println("before clone,b1.aInt = " + b1.aInt);
         System.out.println("before clone,b1.unCA = " + b1.unCA);
 
-        CloneB_Deep b2 = (CloneB_Deep) b1.clone();
+        DeepCloneB b2 = (DeepCloneB) b1.clone();
         b2.aInt = 22;
         b2.unCA.doubleValue();
         System.out.println("=================================");

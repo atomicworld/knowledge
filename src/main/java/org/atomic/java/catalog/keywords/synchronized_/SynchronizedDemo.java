@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.keyWords;
+package org.atomic.java.catalog.keywords.synchronized_;
 
 /**
  *  synchronized方法 、synchronized块

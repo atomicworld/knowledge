@@ -1,28 +1,12 @@
-package org.atomic.java.catalog.keyWords;
+package org.atomic.java.catalog.class_.clone;
 
 /**
  *  Java的所有类都默认继承java.lang.Object类，在java.lang.Object类中有一个方法clone().
  *
  *  一是拷贝对象返回的是一个新对象，而不是一个引用。
  *  二是拷贝对象与用 new操作符返回的新对象的区别: 这个拷贝已经包含了一些原来对象的信息，而不是对象的初始信息。
- *
- *
  */
 
-class Obj {
-    String str = "init value";
-    public String toString() { return str; }
-}
-class ObjRef {
-    Obj obj = new Obj();
-    int aInt = 11;
-    public void changeObj(Obj inObj) {
-        inObj.str = "changed value";
-    }
-    public void changePri(int inInt) {
-        inInt = 22;
-    }
-}
 
 public class CloneDemo implements Cloneable {
 

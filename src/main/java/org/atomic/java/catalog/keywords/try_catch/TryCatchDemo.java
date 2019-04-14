@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.keyWords;
+package org.atomic.java.catalog.keywords.try_catch;
 
 /**
  *  1.不管有木有出现异常，finally块中代码都会执行；

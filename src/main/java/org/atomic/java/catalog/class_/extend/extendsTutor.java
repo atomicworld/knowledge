@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.classIntro.extend;
+package org.atomic.java.catalog.class_.extend;
 
 /**
  * 多态：

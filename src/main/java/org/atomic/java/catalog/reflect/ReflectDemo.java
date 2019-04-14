@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.keyWords;
+package org.atomic.java.catalog.reflect;
 
 import java.lang.Class;
 
@@ -33,7 +33,7 @@ public class ReflectDemo {
     public static void main(String[] args) {
         try{
             //第一种方式：
-            Class c1= Class.forName("org.atomic.java.catalog.keyWords.Apple");
+            Class c1= Class.forName("org.atomic.java.catalog.reflect.Apple");
 
             //第二种方式：(java中每个类型都有class 属性.)
             Class c2 = Apple.class;
