@@ -1,4 +1,4 @@
-package org.atomic.java.catalog;
+package org.atomic.java.catalog.keywords;
 
 import java.util.ArrayList;
 import java.util.Collections;
