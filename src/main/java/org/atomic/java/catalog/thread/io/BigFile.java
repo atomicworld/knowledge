@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.io;
+package org.atomic.java.catalog.thread.io;
 
 import java.io.BufferedReader;
 import java.io.File;

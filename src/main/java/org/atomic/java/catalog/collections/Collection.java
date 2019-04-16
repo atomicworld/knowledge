@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.datatype.collections;
+package org.atomic.java.catalog.collections;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

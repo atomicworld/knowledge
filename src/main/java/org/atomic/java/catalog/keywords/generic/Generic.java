@@ -1,4 +1,4 @@
-package org.atomic.java.catalog.generic;
+package org.atomic.java.catalog.keywords.generic;
 
 /**
  * 泛型：
