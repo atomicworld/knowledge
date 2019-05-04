@@ -1,6 +1,7 @@
 package org.atomic.java.catalog.collections.map;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class TestMain {
 
@@ -13,6 +14,8 @@ public class TestMain {
         Map identityHashMap = new IdentityHashMap<String, String>();
 
         Map treeMap = new TreeMap<String, String>();
+
+        Map concurrentHashMap = new ConcurrentHashMap();
 
     }
 
